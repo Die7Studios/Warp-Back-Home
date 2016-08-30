@@ -458,3 +458,181 @@ Loading Config file system.cfg (c:\program files (x86)\crytek\cryengine launcher
 <16:18:42> Waiting for value WaitForAllowSendClientConnect
 <16:19:23> Waiting for value WaitForAllowSendClientConnect
 <16:20:39> Waiting for value WaitForAllowSendClientConnect
+<16:22:06> Waiting for value WaitForAllowSendClientConnect
+<16:23:01> Waiting for value WaitForAllowSendClientConnect
+<16:23:51> Compile texture from "assets\textures\particles\engine_exhaust_texture.tif", to "assets\textures\particles\engine_exhaust_texture_tmp.dds"
+<16:25:06> Waiting for value WaitForAllowSendClientConnect
+<16:25:15> general.new
+<16:25:26> Waiting for value WaitForAllowSendClientConnect
+<16:25:31> Creating level directory
+<16:25:31> [Error] [Mono][RunMethod] Could not find method 'OnGameStop' in assembly'CryEngine.SampleApp'!
+<16:25:31> [Error] [Mono][RunMethod] Could not find method 'OnGameStop' in assembly'CryEngine.SampleApp'!
+<16:25:31> Ending game context...
+<16:25:31> Destroying CActionGame instance 0000011F5C01A0C0 (level="")
+<16:25:31> [Error] [Mono][RunMethod] Could not find method 'OnGameStop' in assembly'CryEngine.SampleApp'!
+<16:25:31> Loading Config file singleplayer.cfg (assets\config\singleplayer.cfg)
+<16:25:31> [Warning] [Lua Error] Failed to load script file Scripts/GameRules/SinglePlayer.lua
+<16:25:32> Preparing new document...
+<16:25:32> CRGBLayer::AllocateTiles 2x2 tiles 512 => 1024x1024 texture
+<16:25:32> allocating editor height map (1024x1024)*4
+<16:25:32> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<16:25:32> allocating editor height map (1024x1024)*4
+<16:25:32> Flushing pended textures...
+<16:25:32> Finished flushing pended textures...
+<16:25:32> [Warning] XML reader: Can't open file (Libs/UI//TexturePreload.xml)
+<16:25:32> Loading layer texture (engineassets/textures/grey.dds)...
+<16:25:32> SetGlobalState 1->11 'INIT'->'LEVEL_LOAD_TEXTURES' 528.0 seconds
+<16:25:32> -- Presort shaders by states...
+<16:25:32> --- 8 Resources, 0 Resource groups.
+<16:25:32> Requesting textures precache ...
+<16:25:32> -- Precaching textures...
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_12.dds]
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_12.dds]
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_34.dds]
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_34.dds]
+<16:25:32> Precaching progress: 2
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_5.dds]
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_5.dds]
+<16:25:32> Precaching progress: 4
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_grey.dds]
+<16:25:32> [Warning] Texture does not exist [File=textures/defaults/16_grey.dds]
+<16:25:32> Precaching progress: 6
+<16:25:32> [Warning] Texture does not exist [File=textures/skys/night/half_moon.dds]
+<16:25:32> Precaching progress: 8
+<16:25:32> Precaching textures done in 0.07 seconds
+<16:25:32> Textures precache done.
+<16:25:32> CRGBLayer::AllocateTiles 1x1 tiles 512 => 512x512 texture
+<16:25:32> allocating editor height map (1024x1024)*4
+<16:25:32> Saving to assets/Levels/lvl_testing/lvl_testing.cry...
+<16:25:32> Storing View settings...
+<16:25:32> Storing Fog settings...
+<16:25:32> Storing missions...<16:25:33> Done
+<16:25:33> 0 shader combination loaded for level assets/Levels/lvl_testing
+<16:25:33> Saving pak file assets\levels\lvl_testing\lvl_testing.tmp
+<16:25:33> Storing surface types...
+<16:25:33> Storing layer settings...
+<16:25:33> Saving Vegetation Map...
+<16:25:33> Level successfully saved
+<16:25:33> Exporting terrain...
+<16:25:33> Exporting merged meshes sectors...
+<16:25:33> Exporting merged meshes list...
+<16:25:33> Exporting indoors...
+<16:25:33> Exporting LevelData.xml
+<16:25:33> Storing surface types...
+<16:25:33> Storing Collision Classes ...
+<16:25:33> Exporting LevelData.xml done.
+<16:25:33> Regenerating AI data!
+<16:25:33> AI:  Now writing to assets/Levels/lvl_testing/netMission0.bai.
+<16:25:33> AI: [AISYSTEM] Exporting Roads to assets/Levels/lvl_testing\roadnavMission0.bai
+<16:25:33> AI: [AISYSTEM] Finished Exporting data
+<16:25:33> AI: Now writing to assets/Levels/lvl_testing\coverMission0.bai.
+<16:25:33> --- AI: Navigation Data Loaded in  0.01 sec
+<16:25:33> Validating SmartObjects
+<16:25:33> AI: CGraph::Validate Starting: Before updating pak
+<16:25:33> AI: [AISYSTEM] Exporting Areas to assets/Levels/lvl_testing/\areasMission0.bai
+<16:25:33> AI: [AISYSTEM] Finished Exporting data
+<16:25:33> Exporting AI Graph done.
+<16:25:33> Exporting AI Cover Surfaces done.
+<16:25:33> Exporting Navigation data done.
+<16:25:33> Exporting Game Data...
+<16:25:33> Exporting Game Data done
+<16:25:33> Export animation sequences...<16:25:33> Done.
+<16:25:33> Exporting Brushes...<16:25:33> Done.
+<16:25:33> 0 shader combination loaded for level assets/Levels/lvl_testing
+<16:25:33> Exporting serialization list
+<16:25:33> Exporting was successful.
+<16:25:33> Loading map 'assets/Levels/lvl_testing' into engine...
+<16:25:33> ===== Loading Particle Effects =====
+<16:25:34> [Error] Failed to get level info for level lvl_testing!
+<16:25:34> [Error] [Mono][RunMethod] Could not find method 'OnGameStop' in assembly'CryEngine.SampleApp'!
+<16:25:34> Loading terrain layers for segment 0 ...
+<16:25:34> Loading RGB Layer Tile: TilePos=(0, 0) MemUsage=0.0MB
+<16:25:34> Constructing 1365 terrain nodes (0.5 MB) <16:25:34>  done in 0.01 sec
+<16:25:34> Exporting data to game (assets/Levels/lvl_testing/)...
+<16:25:34> Exporting terrain texture.
+<16:25:34> Generating terrain texture...
+<16:25:34> Generation stats: 5 tiles(base: 256x256) = 0.63 MB
+<16:25:35> * Building AO data took 0 seconds *
+<16:25:35> Update terrain texture file...
+<16:25:35> Terrain Texture Exported in 0 seconds.
+<16:25:35> Exporting terrain...
+<16:25:35> Exporting merged meshes sectors...
+<16:25:35> Exporting merged meshes list...
+<16:25:35> Exporting indoors...<16:25:35>  done in 0.00 sec
+<16:25:35> Exporting LevelData.xml
+<16:25:35> Storing surface types...
+<16:25:35> Storing Collision Classes ...
+<16:25:35> Exporting LevelData.xml done.
+<16:25:35> Regenerating AI data!
+<16:25:35> AI:  Now writing to assets/Levels/lvl_testing/netMission0.bai.
+<16:25:35> AI: [AISYSTEM] Exporting Roads to assets/Levels/lvl_testing\roadnavMission0.bai
+<16:25:35> AI: [AISYSTEM] Finished Exporting data
+<16:25:35> AI: Now writing to assets/Levels/lvl_testing\coverMission0.bai.
+<16:25:35> --- AI: Navigation Data Loaded in  0.00 sec
+<16:25:35> Validating SmartObjects
+<16:25:35> AI: CGraph::Validate Starting: Before updating pak
+<16:25:35> AI: [AISYSTEM] Exporting Areas to assets/Levels/lvl_testing/\areasMission0.bai
+<16:25:35> AI: [AISYSTEM] Finished Exporting data
+<16:25:35> Exporting AI Graph done.
+<16:25:35> Exporting AI Cover Surfaces done.
+<16:25:35> Exporting Navigation data done.
+<16:25:35> Exporting Game Data...
+<16:25:35> Exporting Game Data done
+<16:25:35> Export animation sequences...<16:25:35> Done.
+<16:25:35> Exporting Brushes...<16:25:35> Done.
+<16:25:35> 0 shader combination loaded for level assets/Levels/lvl_testing
+<16:25:35> Exporting serialization list
+<16:25:35> Loading map 'assets/Levels/lvl_testing' into engine...
+<16:25:35> ===== Loading Particle Effects =====
+<16:25:35> Exporting was successful.
+<16:25:35> Returned: 
+<16:25:38> Opening terrain\cover.ctc ...
+<16:25:38>   TerrainLayer 0: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<16:25:38>   TerrainLayer 1: TexFormat: BC3, SectorTextureSize: 256x256, SectorTextureDataSizeBytes: 65536
+<16:25:38>   RGB multiplier: 8, Texture indices: 21
+<16:26:08> [Warning] XML reader: Can't open file (objects/players/rocket.mtl)
+<16:26:08> [Warning] Material objects/players/rocket not found
+<16:26:08> [Warning] Texture does not exist [File=Objects/pbs_reference/gloss0_ddna.dds]
+<16:26:08> [Warning] Texture does not exist [File=objects/pbs_reference/gloss0_ddna.dds]
+<16:26:08> Loaded material "rocket" instead of missing "objects/players/rocket" (file "objects/player rocket/rocket.cgf")
+<16:26:42> ui_action.actionRotate
+<16:26:42> Returned: 
+<16:26:47> general.set_view_coordinates
+<16:26:47> Returned: 
+<16:26:48> ui_action.actionMove
+<16:26:48> Returned: 
+<16:26:50> general.set_view_coordinates
+<16:26:50> Returned: 
+<16:26:51> general.set_local_coordinates
+<16:26:51> Returned: 
+<16:26:55> general.set_parent_coordinates
+<16:26:55> Returned: 
+<16:26:56> general.set_view_coordinates
+<16:26:56> Returned: 
+<16:27:46> general.undo
+<16:27:46> Undo (Undo:31,Redo:1)
+<16:27:46> Returned: 
+<16:27:48> ui_action.actionRotate
+<16:27:48> Returned: 
+<16:27:50> general.set_local_coordinates
+<16:27:50> Returned: 
+<16:28:02> general.save
+<16:28:02> Saving to assets/Levels/lvl_testing/lvl_testing.cry...
+<16:28:02> Storing View settings...
+<16:28:02> Storing Fog settings...
+<16:28:02> Storing missions...<16:28:02> Done
+<16:28:02> 0 shader combination loaded for level assets/Levels/lvl_testing
+<16:28:02> Saving pak file assets\levels\lvl_testing\lvl_testing.tmp
+<16:28:02> Storing surface types...
+<16:28:02> Storing layer settings...
+<16:28:02> Saving Vegetation Map...
+<16:28:02> Level successfully saved
+<16:28:02> Returned: 
+<16:37:47> general.set_view_coordinates
+<16:37:47> Returned: 
+<16:37:48> general.set_parent_coordinates
+<16:37:48> Returned: 
+<16:37:49> general.set_local_coordinates
+<16:37:49> Returned: 
+<16:37:49> general.set_view_coordinates
+<16:37:49> Returned: 
