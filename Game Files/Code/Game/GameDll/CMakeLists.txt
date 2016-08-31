@@ -1,7 +1,9 @@
 cmake_minimum_required (VERSION 3.6.0)
 project (Game VERSION 1.0 LANGUAGES CXX)
 
-configure_file ("${PROJECT_NAME}.vcxproj.user.in" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.vcxproj.user")
+if(MSVC)
+	configure_file ("${PROJECT_NAME}.vcxproj.user.in" "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.vcxproj.user")
+endif(MSVC)
 
 find_package (CryCommon REQUIRED)
 find_package (CryAction REQUIRED)
@@ -76,11 +78,11 @@ set (SOURCE
 	${SourceGroup_Startup}	
 )
 
+set (HEADERS ${SOURCE})
+list(FILTER HEADERS INCLUDE REGEX "\\.h$")
+list(FILTER SOURCE EXCLUDE REGEX "\\.h$")
+
 if(OPTION_PCH AND MSVC)
-	set (HEADERS ${SOURCE})
-	list(FILTER HEADERS INCLUDE REGEX "\\.h$")
-	list(FILTER SOURCE EXCLUDE REGEX "\\.h$")
-	
 	set (PRECOMPILED_BINARY ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}.pch)
 	set_source_files_properties (${SOURCE} PROPERTIES COMPILE_FLAGS "/Yu\"StdAfx.h\" /Fp\"${PRECOMPILED_BINARY}\"" OBJECT_DEPENDS "${PRECOMPILED_BINARY}")
 	set_source_files_properties (StdAfx.cpp PROPERTIES COMPILE_FLAGS "/Yc\"StdAfx.h\" /Fp\"${PRECOMPILED_BINARY}\"" OBJECT_OUTPUTS "${PRECOMPILED_BINARY}")

@@ -1,9 +1,0 @@
-<ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="{3D58CFE3-52B6-4814-BBE4-B222174E6748}" Hidden="0" Frozen="0" Expanded="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
-  <LayerObjects>
-   <Object Type="Brush" Layer="Main" LayerGUID="{3D58CFE3-52B6-4814-BBE4-B222174E6748}" Id="{FF1F1CFA-A705-4FE7-A9CC-16EC4AABD8A7}" Name="rocket1" Pos="512,512,35.150887" FloorNumber="-1" Rotate="0.81670493,-0.33829027,-0.17890307,-0.43191019" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/player rocket/rocket.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
-    <CollisionFiltering />
-   </Object>
-  </LayerObjects>
- </Layer>
-</ObjectLayer>
